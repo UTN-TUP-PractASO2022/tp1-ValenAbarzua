@@ -17,7 +17,7 @@ int main( ){
       printf ("SOY EL PROCESO PADRE! ");
       printf ("MI  PROCESS ID ES = %d, Y EL DE MI PADRE = %d \n", getpid( ), getppid( ) );
    }
-
+gcc -o procesosbinario procesos.c 
 
 sleep(10);
 return 0;
